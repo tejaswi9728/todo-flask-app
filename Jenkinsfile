@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/tejaswi9728/todo-flask-app.git
+                git 'https://github.com/tejaswi9728/todo-flask-app.git'
             }
         }
 
